@@ -128,7 +128,7 @@ li {
   .container {
     width: 90%;
     max-width: 400px;
-    min-height: 300px;
+    min-height: 250px;
     padding: 12px;
   }
 }
