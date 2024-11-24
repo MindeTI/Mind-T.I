@@ -11,7 +11,7 @@ function Inicio() {
 
   return (
     <div className="container">
-      <h1>Bem-vindo ao Quiz T.I</h1>
+      <h1>Bem-vindo ao Mind T.I</h1>
       <p>Teste seus conhecimentos em T.I!</p>
 
       <button
