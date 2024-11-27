@@ -39,7 +39,7 @@ function Pergunta({ categoria, rodadas, setRodadas, pontuacao, setPontuacao }) {
       if (rodadas < 15) {
         setRodadas(rodadas + 1);
       } else {
-        navigate("/final");
+        navigate("/parabens");
       }
     } else {
       resetGame();
