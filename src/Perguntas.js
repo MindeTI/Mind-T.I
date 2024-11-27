@@ -7,7 +7,7 @@ export const perguntasPorCategoria = {
               "<img src>",
               "url",
               "href",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "<img src>",
             explicacao: "Para importar uma imagem em HTML, utiliza-se a tag `<img src='image.jpg' alt='sua descrição'>`.",
           },
@@ -18,7 +18,7 @@ export const perguntasPorCategoria = {
               "<table>",
               "<tabela>",
               "<create tb>",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "<table>",
             explicacao: "Para criar uma tabela em HTML, utiliza-se a tag `<table>`, junto com `<tr>` para linhas e `<td>` para células de dados.",
           },
@@ -29,7 +29,7 @@ export const perguntasPorCategoria = {
               "Context Style Sheets",
               "Casual Style Sheets",
               "Commit Style Sheets",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "Cascading Style Sheets",
             explicacao: "CSS significa Cascading Style Sheets, uma linguagem de estilo para definir a aparência de páginas web.",
           },
@@ -40,7 +40,7 @@ export const perguntasPorCategoria = {
               "Background-color",
               "Font-color",
               "Font-size",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "Background-color",
             explicacao: "A propriedade `background-color` é usada para aplicar uma cor de fundo em CSS.",
           },
@@ -51,7 +51,7 @@ export const perguntasPorCategoria = {
               "<main>",
               "<body>",
               "<css>",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "<body>",
             explicacao: "A tag `<body>` é o corpo principal do documento HTML e contém todo o conteúdo visível.",
           },
@@ -62,7 +62,7 @@ export const perguntasPorCategoria = {
               "Um framework para backend em JavaScript.",
               "Uma biblioteca para construção de interfaces de usuário.",
               "Um compilador de código JavaScript.",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "Uma biblioteca para construção de interfaces de usuário.",
             explicacao: "O React é uma biblioteca JavaScript para criar interfaces de usuário dinâmicas e reativas.",
           },
@@ -73,7 +73,7 @@ export const perguntasPorCategoria = {
               "Uma extensão de sintaxe que permite escrever HTML no JavaScript",
               "Um tipo de servidor web para React",
               "Uma linguagem de programação usada pelo React",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "Uma extensão de sintaxe que permite escrever HTML no JavaScript",
             explicacao: "JSX é uma extensão de sintaxe que combina HTML e JavaScript, tornando o código React mais legível.",
           },
@@ -84,7 +84,7 @@ export const perguntasPorCategoria = {
               "Criar um estado local dentro do componente.",
               "Controlar os efeitos colaterais de um componente.",
               "Alterar o layout do componente.",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "Criar um estado local dentro do componente.",
             explicacao: "`useState` permite criar e gerenciar estados locais em componentes funcionais do React.",
           },
@@ -95,7 +95,7 @@ export const perguntasPorCategoria = {
               "Controla a renderização condicional de um componente.",
               "Realiza efeitos colaterais, como chamadas de API ou manipulação de DOM após a renderização.",
               "Altera a estrutura do JSX exibido pelo componente.",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "Realiza efeitos colaterais, como chamadas de API ou manipulação de DOM após a renderização.",
             explicacao: "`useEffect` é usado para lidar com efeitos colaterais, como manipulação de DOM e chamadas de API.",
           },
@@ -106,7 +106,7 @@ export const perguntasPorCategoria = {
               "Controlar a estrutura e o comportamento do DOM",
               "Definir o estilo e a aparência visual de uma página web",
               "Gerenciar o estado de um componente no JavaScript",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "Definir o estilo e a aparência visual de uma página web",
             explicacao: "CSS é usado para definir o estilo e o layout de páginas web, como cores, fontes e tamanhos.",
           },
@@ -117,7 +117,7 @@ export const perguntasPorCategoria = {
               "Uma técnica para criar layouts com base em colunas fixas",
               "Um sistema de layout que permite criar designs flexíveis e responsivos com base em contêineres e itens",
               "Um tipo de animação usada em páginas web",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "Um sistema de layout que permite criar designs flexíveis e responsivos com base em contêineres e itens",
             explicacao: "O Flexbox é uma técnica de CSS para criar layouts responsivos e flexíveis.",
           },
@@ -128,7 +128,7 @@ export const perguntasPorCategoria = {
               "Fornecer uma descrição alternativa da imagem, caso ela não possa ser carregada",
               "Controlar o efeito de transição da imagem",
               "Alterar a cor da imagem",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "Fornecer uma descrição alternativa da imagem, caso ela não possa ser carregada",
             explicacao: "O atributo `alt` fornece uma descrição textual para imagens, útil para acessibilidade.",
           },
@@ -139,7 +139,7 @@ export const perguntasPorCategoria = {
               "font-color",
               "text-color",
               "background-color",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "color",
             explicacao: "A propriedade `color` é usada para definir a cor do texto em CSS.",
           },
@@ -150,7 +150,7 @@ export const perguntasPorCategoria = {
               "text-size",
               "size",
               "font-style",
-            ],
+            ].sort(() => Math.random() - 0.5),
             respostaCorreta: "font-size",
             explicacao: "A propriedade `font-size` controla o tamanho do texto em CSS.",
           },
@@ -163,7 +163,7 @@ export const perguntasPorCategoria = {
         "Um conjunto de funções para banco de dados",
         "Uma interface de comunicação entre sistemas",
         "Um tipo de Servidor Físico"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta: "Uma interface de comunicação entre sistemas",
       explicacao:
         "As APIs atuam como um conjunto de regras e ferramentas que permitem a interação entre diferentes softwares, facilitando a integração e o fluxo de dados.",
@@ -175,14 +175,14 @@ export const perguntasPorCategoria = {
         "Compactar arquivos para reduzir espaço",
         "Descarta requisições HTTP desnecessárias",
         "Criar conexões com banco de dados"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta: "Armazena temporariamente dados",
       explicacao:
         "Caching é uma técnica que armazena dados frequentemente acessados em um local temporário, chamado cache, para melhorar o desempenho de um sistema.",
     },
     {
       pergunta: "Qual dessas tecnologias é ideal para Autenticação em uma API?",
-      alternativas: ["GraphQL", "OAuth", "CSS", "JSON"],
+      alternativas: ["GraphQL", "OAuth", "CSS", "JSON"].sort(() => Math.random() - 0.5),
       respostaCorreta: "OAuth",
       explicacao:
         "OAuth é um padrão aberto de delegação de autorização/autenticação, utilizado para permitir que usuários façam login em sites terceiros usando contas como Google, Facebook e Microsoft, mas sem expor senhas e outras credenciais de autenticação.",
@@ -195,7 +195,7 @@ export const perguntasPorCategoria = {
         "Tokens JWT permitem autenticação sem necessidade de estado no servidor",
         "JWT substitui protocolos como o OAuth 2",
         "JWT são mais rápidos que qualquer outro método de autenticação"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta:
         "Tokens JWT permitem autenticação sem necessidade de estado no servidor",
       explicacao:
@@ -209,7 +209,7 @@ export const perguntasPorCategoria = {
         "HTTP usa o modo half-duplex, enquanto Websockets mantêm uma conexão Full-duplex",
         "HTTP é baseado em eventos, enquanto Websockets não são",
         "Um é online, outro Não"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta:
         "HTTP usa o modo half-duplex, enquanto Websockets mantêm uma conexão Full-duplex",
       explicacao:
@@ -223,7 +223,7 @@ export const perguntasPorCategoria = {
         "Processar e armazenar dados enviados pelo front-end",
         "Otimizar o carregamento de imagens",
         "Criação de IAs"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta: "Processar e armazenar dados enviados pelo front-end",
       explicacao:
         "O back-end é responsável por processar e armazenar os dados enviados pelo front-end e, muitas vezes, interagir com o banco de dados para gerenciar essas informações.",
@@ -235,7 +235,7 @@ export const perguntasPorCategoria = {
         "Ler dados de banco de dados, serviços na nuvem ou praticamente qualquer outra origem",
         "Um mecanismo de cache usado em consultas complexas",
         "Um método para agrupar endpoints de forma lógica"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta:
         "Ler dados de banco de dados, serviços na nuvem ou praticamente qualquer outra origem",
       explicacao:
@@ -243,7 +243,7 @@ export const perguntasPorCategoria = {
     },
     {
       pergunta: "Qual linguagem é mais popular usada no Back-end?",
-      alternativas: ["HTML", "CSS", "JavaScript", "Python"],
+      alternativas: ["HTML", "CSS", "JavaScript", "Python"].sort(() => Math.random() - 0.5),
       respostaCorreta: "Python",
       explicacao:
         "Python é comum no Back-end devido à robustez e suporte para frameworks de servidores como Django e Flask.",
@@ -255,7 +255,7 @@ export const perguntasPorCategoria = {
         "Facilitar o desenvolvimento de interfaces",
         "Facilitar o desenvolvimento de aplicativos de web do lado do servidor",
         "Gerar relatórios"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta:
         "Facilitar o desenvolvimento de aplicativos de web do lado do servidor",
       explicacao:
@@ -264,14 +264,14 @@ export const perguntasPorCategoria = {
     {
       pergunta:
         "Qual protocolo é usado para comunicação entre servidores e clientes na Web?",
-      alternativas: ["HTTP", "FTP", "SMTP", "DNS"],
+      alternativas: ["HTTP", "FTP", "SMTP", "DNS"].sort(() => Math.random() - 0.5),
       respostaCorreta: "HTTP",
       explicacao:
         "O protocolo usado para comunicação entre clientes e servidor na Web é o HTTP (Hypertext Transfer Protocol).",
     },
     {
       pergunta: "Qual das opções é um banco de dados NoSQL?",
-      alternativas: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+      alternativas: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"].sort(() => Math.random() - 0.5),
       respostaCorreta: "MongoDB",
       explicacao:
         "MongoDB é um banco de dados NoSQL que oferece esquemas flexíveis e escalabilidade.",
@@ -283,7 +283,7 @@ export const perguntasPorCategoria = {
         "Excluir dados antigos",
         "Renderizar páginas mais rápido",
         "Criar Layouts para Sistemas"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta: "Garantir a segurança das informações de um sistema",
       explicacao:
         "A autenticação no Back-end tem como objetivo garantir a segurança das informações, validando as credenciais do usuário.",
@@ -295,7 +295,7 @@ export const perguntasPorCategoria = {
         "Ajudar na renderização do Front-end",
         "Armazena dados em memória para rápido acesso",
         "Realiza consultas SQL complexas"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta: "Armazena dados em memória para rápido acesso",
       explicacao:
         "O Redis armazena dados na memória, permitindo acesso rápido e reduzindo a necessidade de consultas ao banco de dados.",
@@ -307,7 +307,7 @@ export const perguntasPorCategoria = {
         "Servidor Web de alta performance com Balanceador de carga",
         "Exclui dados obsoletos de usuários",
         "Gerencia a autenticação de usuários"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta:
         "Servidor Web de alta performance com Balanceador de carga",
       explicacao:
@@ -320,148 +320,147 @@ export const perguntasPorCategoria = {
         "HyperTransfer Text Protocol",
         "HyperTerminal Transfer Protocol",
         "HighTransfer Text Protocol"
-      ],
+      ].sort(() => Math.random() - 0.5),
       respostaCorreta: "Hypertext Transfer Protocol",
       explicacao:
         "HTTP significa Hypertext Transfer Protocol, utilizado para transferência de dados na Web.",
     },
     ],
     "Fullstack": [
-        {
-            pergunta: "O que é um desenvolvedor Full Stack?",
-            alternativas: [
-              "Trabalha apenas com design",
-              "Especialista em banco de dados",
-              "Trabalha só no frontend",
-              "Trabalha com Frontend e Backend",
-            ],
-            respostaCorreta: 3,
-            explicacao: "Desenvolvedores Full Stack são profissionais que trabalham tanto com o front-end quanto com o back-end, dominando tecnologias de ambas as áreas.",
-          },
-          {
-            pergunta: "O que é HTML usado para criar?",
-            alternativas: [
-              "Planilhas de Excel",
-              "Aplicações de celular",
-              "Estrutura de páginas da web",
-              "Jogos de console",
-            ],
-            respostaCorreta: 2,
-            explicacao: "HTML é usado para criar a estrutura das páginas da web, definindo cabeçalhos, parágrafos, links e outros elementos estruturais.",
-          },
-          {
-            pergunta: "O que é usado para estilizar páginas web?",
-            alternativas: ["SQL", "CSS", "HTML", "JSON"],
-            respostaCorreta: 1,
-            explicacao: "CSS (Cascading Style Sheets) é usado para estilizar elementos HTML, permitindo personalizar fontes, cores e layouts.",
-          },
-          {
-            pergunta: "Qual é a função do JavaScript no frontend?",
-            alternativas: [
-              "Criar banco de dados",
-              "Gerar gráficos no Excel",
-              "Alterar a aparência",
-              "Manipula o CSS de forma interativa e responsiva",
-            ],
-            respostaCorreta: 3,
-            explicacao: "JavaScript permite criar interatividade e respostas dinâmicas na página, como manipulação de estilos e eventos do usuário.",
-          },
-          {
-            pergunta: "O que é uma API?",
-            alternativas: [
-              "Um comunicador entre sistemas",
-              "Um servidor de e-mails",
-              "Um tipo de antivírus",
-              "Um comunicador entre sistemas",
-            ],
-            respostaCorreta: 0,
-            explicacao: "Uma API (Application Programming Interface) é uma ponte que permite a comunicação e integração entre diferentes sistemas.",
-          },
-          {
-            pergunta: "Qual destes é um banco de dados relacional?",
-            alternativas: ["React", "CSS", "Angular", "MySQL"],
-            respostaCorreta: 3,
-            explicacao: "MySQL é um banco de dados relacional amplamente utilizado para armazenar e organizar dados em tabelas relacionadas.",
-          },
-          {
-            pergunta: "Qual linguagem é usada no backend com Node.js?",
-            alternativas: ["PHP", "Python", "Ruby", "JavaScript"],
-            respostaCorreta: 3,
-            explicacao: "Node.js é uma plataforma que utiliza JavaScript para executar código no lado do servidor.",
-          },
-          {
-            pergunta: "Qual é o framework frontend popular?",
-            alternativas: ["MongoDB", "Flask", "Apache", "React"],
-            respostaCorreta: 3,
-            explicacao: "React é um framework popular usado no desenvolvimento front-end para criar interfaces de usuário dinâmicas.",
-          },
-          {
-            pergunta: "O que é um CRUD?",
-            alternativas: [
-              "Sistema de segurança para sites",
-              "Método de compressão de arquivos",
-              "Ferramenta de design gráfico",
-              "Operações de Criar, Ler, Atualizar e Deletar dados",
-            ],
-            respostaCorreta: 3,
-            explicacao: "CRUD representa as operações básicas para gerenciamento de dados: Create, Read, Update e Delete.",
-          },
-          {
-            pergunta: "O que é o CSS usado para fazer?",
-            alternativas: [
-              "Gerar relatórios financeiros",
-              "Armazenar dados de usuários",
-              "Enviar e-mails automáticos",
-              "Estilizar páginas web",
-            ],
-            respostaCorreta: 3,
-            explicacao: "CSS é usado para estilizar páginas web, definindo cores, fontes e layouts para melhorar a aparência.",
-          },
-          {
-            pergunta: "Qual desses é um servidor web?",
-            alternativas: ["Canva", "MongoDB", "Photoshop", "Apache"],
-            respostaCorreta: 3,
-            explicacao: "Apache é um servidor web amplamente utilizado para hospedar e servir páginas da web.",
-          },
-          {
-            pergunta: "O que significa fazer o deploy de uma aplicação?",
-            alternativas: [
-              "Criar um backup do projeto",
-              "Traduzir o código para outra linguagem",
-              "Salvar o código localmente",
-              "Publicar o código em um servidor",
-            ],
-            respostaCorreta: 3,
-            explicacao: "Fazer o deploy de uma aplicação significa publicá-la em um servidor para que esteja acessível aos usuários.",
-          },
-          {
-            pergunta: "O que é Git?",
-            alternativas: [
-              "Uma linguagem de programação",
-              "Uma ferramenta de design",
-              "Um software para editar vídeos",
-              "Sistema de controle de versão",
-            ],
-            respostaCorreta: 3,
-            explicacao: "Git é um sistema de controle de versão que permite rastrear alterações no código e facilitar a colaboração entre desenvolvedores.",
-          },
-          {
-            pergunta: "Qual dessas tecnologias é usada para backend?",
-            alternativas: ["HTML", "CSS", "React", "Python"],
-            respostaCorreta: 3,
-            explicacao: "Python é uma linguagem de programação amplamente usada no backend devido à sua versatilidade e suporte para frameworks como Django e Flask.",
-          },
-          {
-            pergunta: "O que significa frontend em desenvolvimento web?",
-            alternativas: [
-              "Banco de dados da aplicação",
-              "Lógica de negócios no servidor",
-              "Código executado pelo backend",
-              "Interface e parte visual do site",
-            ],
-            respostaCorreta: 3,
-            explicacao: "Frontend refere-se à parte visual e interativa do site, que é exibida diretamente aos usuários.",
-          },
+      {
+        pergunta: "O que é um desenvolvedor Full Stack?",
+        alternativas: [
+          "Trabalha apenas com design",
+          "Trabalha só no frontend",
+          "Especialista em banco de dados",
+          "Trabalha com Frontend e Backend",
+        ].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Trabalha com Frontend e Backend",
+        explicacao: "Desenvolvedores Full Stack são profissionais que trabalham tanto com o front-end quanto com o back-end, dominando tecnologias de ambas as áreas.",
+      },
+      {
+        pergunta: "O que é HTML usado para criar?",
+        alternativas: [
+          "Planilhas de Excel",
+          "Jogos de console",
+          "Aplicações de celular",
+          "Estrutura de páginas da web",
+        ].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Estrutura de páginas da web",
+        explicacao: "HTML é usado para criar a estrutura das páginas da web, definindo cabeçalhos, parágrafos, links e outros elementos estruturais.",
+      },
+      {
+        pergunta: "O que é usado para estilizar páginas web?",
+        alternativas: ["SQL", "CSS", "HTML", "JSON"].sort(() => Math.random() - 0.5),
+        respostaCorreta: "CSS",
+        explicacao: "CSS (Cascading Style Sheets) é usado para estilizar elementos HTML, permitindo personalizar fontes, cores e layouts.",
+      },
+      {
+        pergunta: "Qual é a função do JavaScript no frontend?",
+        alternativas: [
+          "Criar banco de dados",
+          "Gerar gráficos no Excel",
+          "Alterar a aparência",
+          "Manipula o CSS de forma interativa e responsiva",
+        ].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Manipula o CSS de forma interativa e responsiva",
+        explicacao: "JavaScript permite criar interatividade e respostas dinâmicas na página, como manipulação de estilos e eventos do usuário.",
+      },
+      {
+        pergunta: "O que é uma API?",
+        alternativas: [
+          "Um comunicador entre sistemas",
+          "Um servidor de e-mails",
+          "Um tipo de antivírus",
+          "Uma ferramenta de design gráfico",
+        ].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Um comunicador entre sistemas",
+        explicacao: "Uma API (Application Programming Interface) é uma ponte que permite a comunicação e integração entre diferentes sistemas.",
+      },
+      {
+        pergunta: "Qual destes é um banco de dados relacional?",
+        alternativas: ["React", "CSS", "Angular", "MySQL"].sort(() => Math.random() - 0.5),
+        respostaCorreta: "MySQL",
+        explicacao: "MySQL é um banco de dados relacional amplamente utilizado para armazenar e organizar dados em tabelas relacionadas.",
+      },
+      {
+        pergunta: "Qual linguagem é usada no backend com Node.js?",
+        alternativas: ["PHP", "Python", "Ruby", "JavaScript"].sort(() => Math.random() - 0.5),
+        respostaCorreta: "JavaScript",
+        explicacao: "Node.js é uma plataforma que utiliza JavaScript para executar código no lado do servidor.",
+      },
+      {
+        pergunta: "Qual é o framework frontend popular?",
+        alternativas: ["MongoDB", "Flask", "Apache", "React"].sort(() => Math.random() - 0.5),
+        respostaCorreta: "React",
+        explicacao: "React é um framework popular usado no desenvolvimento front-end para criar interfaces de usuário dinâmicas.",
+      },
+      {
+        pergunta: "O que é um CRUD?",
+        alternativas: [
+          "Sistema de segurança para sites",
+          "Método de compressão de arquivos",
+          "Ferramenta de design gráfico",
+          "Operações de Criar, Ler, Atualizar e Deletar dados",
+        ].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Operações de Criar, Ler, Atualizar e Deletar dados",
+        explicacao: "CRUD representa as operações básicas para gerenciamento de dados: Create, Read, Update e Delete.",
+      },
+      {
+        pergunta: "O que é o CSS usado para fazer?",
+        alternativas: [
+          "Gerar relatórios financeiros",
+          "Armazenar dados de usuários",
+          "Enviar e-mails automáticos",
+          "Estilizar páginas web",
+        ].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Estilizar páginas web",
+        explicacao: "CSS é usado para estilizar páginas web, definindo cores, fontes e layouts para melhorar a aparência.",
+      },
+      {
+        pergunta: "Qual desses é um servidor web?",
+        alternativas: ["Canva", "MongoDB", "Photoshop", "Apache"].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Apache",
+        explicacao: "Apache é um servidor web amplamente utilizado para hospedar e servir páginas da web.",
+      },
+      {
+        pergunta: "O que significa fazer o deploy de uma aplicação?",
+        alternativas: [
+          "Criar um backup do projeto",
+          "Traduzir o código para outra linguagem",
+          "Salvar o código localmente",
+          "Publicar o código em um servidor",
+        ].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Publicar o código em um servidor",
+        explicacao: "Fazer o deploy de uma aplicação significa publicá-la em um servidor para que esteja acessível aos usuários.",
+      },
+      {
+        pergunta: "O que é Git?",
+        alternativas: [
+          "Uma linguagem de programação",
+          "Uma ferramenta de design",
+          "Um software para editar vídeos",
+          "Sistema de controle de versão",
+        ].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Sistema de controle de versão",
+        explicacao: "Git é um sistema de controle de versão que permite rastrear alterações no código e facilitar a colaboração entre desenvolvedores.",
+      },
+      {
+        pergunta: "Qual dessas tecnologias é usada para backend?",
+        alternativas: ["HTML", "CSS", "React", "Python"].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Python",
+        explicacao: "Python é uma linguagem de programação amplamente usada no backend devido à sua versatilidade e suporte para frameworks como Django e Flask.",
+      },
+      {
+        pergunta: "O que significa frontend em desenvolvimento web?",
+        alternativas: [
+          "Banco de dados da aplicação",
+          "Lógica de negócios no servidor",
+          "Código executado pelo backend",
+          "Interface e parte visual do site",
+        ].sort(() => Math.random() - 0.5),
+        respostaCorreta: "Interface e parte visual do site",
+        explicacao: "Frontend refere-se à parte visual e interativa do site, que é exibida diretamente aos usuários.",
+      },
     ],
   };
-  
